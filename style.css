@@ -1,0 +1,88 @@
+*,
+html,
+body {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.kontainer {
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.kontainer .logo h1 {
+  font-size: 60px;
+}
+.kontainer .logo h3 {
+  font-size: 25px;
+}
+.form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form a {
+  text-decoration: none;
+  text-align: center;
+}
+#Masuk {
+  font-size: large;
+  width: 100%;
+}
+#register {
+  height: 40px;
+  width: 140px;
+}
+hr {
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .kontainer {
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .kontainer .logo h3 {
+    display: none;
+  }
+  .kontainer .logo h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+}
+#regist-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.kon {
+  width: 100%;
+}
+#tombol-regist {
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper .container .kon h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}

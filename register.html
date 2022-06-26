@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container" id="regist-container">
+        <div class="kon">
+          <h1>Insert Your Data</h1>
+          <div class="mb-3 row">
+            <label for="Username" class="col-sm-2 col-form-label"
+              >Username</label
+            >
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="Username" />
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="Name" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="Name" />
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="Email" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="Email" />
+            </div>
+          </div>
+          <div class="mb-3 row" style="margin-bottom: 40px">
+            <label for="Password" class="col-sm-2 col-form-label"
+              >Password</label
+            >
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="Password" />
+            </div>
+          </div>
+          <div class="row" id="tombol-regist">
+            <button
+              type="button"
+              class="btn btn-success"
+              id="register"
+              onclick="login()"
+            >
+              Back
+            </button>
+            <button
+              type="button"
+              class="btn btn-success"
+              id="register"
+              onclick="makeaccount()"
+            >
+              Register
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

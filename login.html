@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="kontainer">
+      <div class="logo">
+        <h1>Login Page</h1>
+        <h3>Yahahahaha Wahyu</h3>
+      </div>
+      <div class="form">
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            placeholder="Email atau Nomor Telepon"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            placeholder="Kata Sandi"
+            required
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="btn btn-primary mb-3"
+          id="Masuk"
+          onclick="home()"
+        >
+          Masuk
+        </button>
+
+        <a href="#lupakatsan">Lupa Kata Sandi ?</a>
+        <hr />
+
+        <button
+          type="button"
+          class="btn btn-success"
+          id="register"
+          onclick="register()"
+        >
+          Make Account
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
