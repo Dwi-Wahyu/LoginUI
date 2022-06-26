@@ -5,7 +5,7 @@ function home() {
   location.href = "home.html";
 }
 function login() {
-  location.href = "login.html";
+  location.href = "index.html";
 }
 function makeaccount() {
   alert("Coming Soon");
